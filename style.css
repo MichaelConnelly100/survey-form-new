@@ -10,14 +10,12 @@ body {
 h1,
 p {
   margin: 1em auto;
-  text-align: center;
 }
 
 form {
   margin: 0 auto;
   max-width: 500px;
   min-width: 300px;
-  text-align: center;
 }
 
 fieldset {
