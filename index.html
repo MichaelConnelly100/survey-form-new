@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <form id="survey-form">
+        <h1 id="title">Ice Cream Survey Form</h1>
+        <p id="description" class="argu">An insight to arguably the best dessert</p>
+        <fieldset>
+          <label id="name-label" for="name">
+            Name: <input id="name" type="text" placeholder="Please enter your name" required
+          /></label>
+
+          <label id="email-label" for="email">
+            e-mail: <input id="email" type="email" placeholder="Please enter your e-mail" required
+          /></label>
+
+          <label id="number-label" for="number">
+            Age:
+            <input id="number" type="number" min="10" max="100" placeholder="Please enter your age"
+          /></label>
+        </fieldset>
+        <fieldset>
+          <p>Do you like ice cream?</p>
+          <label for="Yes">Yes<input type="radio" name="radio-group" id="key" value="0" /> </label>
+          <label for="No">No<input type="radio" name="radio-group" id="door" value="1" /> </label>
+
+          <label for="dropdown">
+            <p>Please select your favourite ice cream flavour:</p>
+            <select name="dropdown" id="dropdown">
+              <option value="1">Chocolate</option>
+              <option value="2">Strawberry</option>
+              <option value="3">Vanilla</option>
+              <option value="4">Matcha</option>
+              <option value="5">Prefer not to say</option>
+              <option value="6">Other</option>
+            </select>
+          </label>
+          <p>Please choose your favourite toppings (Tick all that apply)</p>
+          <label for="Sprinkles"
+            ><input type="checkbox" value="checkbox" id="Sprinkles" />Sprinkles
+          </label>
+          <label for="Sauce"><input type="checkbox" value="checkbox" id="Sauce" /> Sauce </label>
+          <label for="Candy"><input type="checkbox" value="checkbox" id="Candy" /> Candy </label>
+          <label for="Other"><input type="checkbox" value="checkbox" id="Other" />Other </label>
+        </fieldset>
+        <fieldset>
+          <p>What would be your dream ice cream combination?</p>
+          <textarea
+            name="text"
+            id="text"
+            cols="30"
+            rows="10"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </fieldset>
+        <div class="button">
+          <button id="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

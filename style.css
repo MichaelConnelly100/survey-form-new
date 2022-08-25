@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url();
+  background-color: aliceblue;
+}
+
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.argu {
+  font-style: italic;
+}
+
+textarea {
+  width: 90%;
+}
+
+.submit {
+  width: 60%;
+  font-size: 0.9rem;
+}
+
+.container {
+  padding: 20px;
+}
+
+.button {
+  padding: 20px;
+}
